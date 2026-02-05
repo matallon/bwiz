@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+  }
+  
+  #container{
+    background-color:#7A0000;
+    background-image: linear-gradient(#9e1313 .1em, transparent .1em), 
+    linear-gradient(90deg, #9e1313 .1em, transparent .1em);
+    background-size: 4em 4em;
+    height: 100vh;
+  }
+
+:root{
+    --random-height: 50; 
+}
+
+#card{
+    width: 400px;
+    height: 270px;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    top: var(--random-height);
+}
+
+nav{
+	width: 100%;
+	text-align: center;
+	color: #d2d2d2;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-left: 2px;
+}
+
+.header {
+	padding: 10px 16px;
+	z-index:100;
+	font-size: large;
+}
+
+/* Page content */
+.content {
+	padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+	position:sticky;
+	top: 0;
+	width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+	padding-top: 102px;
+}
