@@ -1,15 +1,15 @@
 body{
     padding: 0;
     margin: 0;
-  }
+}
   
-  #container{
+#container{
     background-color:#7A0000;
     background-image: linear-gradient(#9e1313 .1em, transparent .1em), 
     linear-gradient(90deg, #9e1313 .1em, transparent .1em);
     background-size: 4em 4em;
     height: 100vh;
-  }
+}
 
 :root{
     --random-height: 50; 
@@ -28,16 +28,13 @@ nav{
 	width: 100%;
 	text-align: right;
 	color: #ffffff;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
   font-family: Rubik Broken Fax;
 }
 
 .header {
 	padding: 10px 16px;
 	z-index:100;
-	font-size: large;
+	font-size: xx-large;
 }
 
 /* Page content */
@@ -56,9 +53,21 @@ nav{
 .sticky + .content {
 	padding-top: 102px;
 }
+
 #backgrounds{
   width: 70%;
   height: 80%;
   left: 400px;
   top: 100px;
+}
+
+#title{
+  top: 0;
+  position: absolute;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
 }
