@@ -1,33 +1,33 @@
-let newX = 0, newY = 0, startX = 0, startY = 0;
+let startX = 0, startY = 0;
+let activeCard = null;
 
-const card = document.getElementById('card')
+document.querySelectorAll('.card').forEach(card => {
+    card.addEventListener('mousedown', e => mouseDown(e, card));
+});
 
-card.addEventListener('mousedown', mouseDown)
+function mouseDown(e, card){
+    activeCard = card;
+    startX = e.clientX;
+    startY = e.clientY;
 
-function mouseDown(e){
-    startX = e.clientX
-    startY = e.clientY
-
-    document.addEventListener('mousemove', mouseMove)
-    document.addEventListener('mouseup', mouseUp)
+    document.addEventListener('mousemove', mouseMove);
+    document.addEventListener('mouseup', mouseUp);
 }
 
 function mouseMove(e){
-    newX = startX - e.clientX 
-    newY = startY - e.clientY 
-  
-    startX = e.clientX
-    startY = e.clientY
+    if (!activeCard) return;
 
-    card.style.top = (card.offsetTop - newY) + 'px'
-    card.style.left = (card.offsetLeft - newX) + 'px'
+    const newX = startX - e.clientX;
+    const newY = startY - e.clientY;
+
+    startX = e.clientX;
+    startY = e.clientY;
+
+    activeCard.style.top = (activeCard.offsetTop - newY) + 'px';
+    activeCard.style.left = (activeCard.offsetLeft - newX) + 'px';
 }
 
-function mouseUp(e){
-    document.removeEventListener('mousemove', mouseMove)
+function mouseUp(){
+    document.removeEventListener('mousemove', mouseMove);
+    activeCard = null;
 }
-
-var randomHeight = Math.random()*100;
-var height = document.querySelector("#card");
-height.style.setProperty('--random-height', randomHeight);
-console.log(randomHeight);
