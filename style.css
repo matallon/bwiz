@@ -19,7 +19,7 @@ body{
     width: 400px;
     height: 270px;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: grab;
     position: absolute;
 }
