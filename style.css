@@ -56,7 +56,7 @@ nav{
 
 #backgrounds{
   width: 70%;
-  height: 80%;
+  height: 85%;
   left: 400px;
   top: 100px;
 }
@@ -64,6 +64,17 @@ nav{
 #title{
   top: 0;
   position: absolute;
+}
+
+#artisttext{
+  position: absolute;
+  width: 60%;
+  height: 80%;
+  left: 480px;
+  top: 170px;
+  font-family: "Inter";
+  font-size: larger;
+  line-height: 200%;
 }
 
 @media only screen and (max-width: 600px) {
