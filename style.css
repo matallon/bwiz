@@ -56,6 +56,11 @@ nav{
   top: 100px;
 }
 
+#cvbox{
+  top: 70%;
+  left: 100px;
+}
+
 #title{
   top: 2%;
   left: 2%;
@@ -91,12 +96,10 @@ nav{
     top: 90%;
   }
   #navimage{
-    width:19%;
+    width:21%;
   }
 
   #title{
-    width: 40%;
+    width: 30%;
   }
-
-
 }
