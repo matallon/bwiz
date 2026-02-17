@@ -11,10 +11,6 @@ body{
     height: 100vh;
 }
 
-:root{
-    --random-height: 50; 
-}
-
 .card {
     width: 400px;
     height: 270px;
@@ -37,28 +33,23 @@ nav{
 	padding: 10px 16px;
 }
 
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-	position:sticky;
-	top: 0;
-	width: 100%
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-	padding-top: 102px;
-}
-
 #backgrounds{
   width: 70%;
   height: 85%;
   left: 400px;
   top: 100px;
+  margin: auto;
 }
 
 #cvbox{
-  top: 70%;
+  top: 500px;
+}
+
+#portfolio{
+  width: 70%;
+  display: absolute;
   left: 100px;
+  
 }
 
 #title{
