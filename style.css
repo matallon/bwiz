@@ -43,13 +43,18 @@ nav{
 
 #cvbox{
   top: 500px;
+  display: block;
+  margin-left: 1%;
+  margin-top: 5%;
 }
 
 #portfolio{
-  width: 70%;
-  display: absolute;
-  left: 100px;
-  
+  display: block;
+	margin-left: 65%;
+	margin-right: auto;
+	width:70%;
+	margin:auto; 
+	text-align:center;
 }
 
 #title{
