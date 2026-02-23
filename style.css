@@ -20,7 +20,7 @@ body{
     border-radius: 30px;
     cursor: grab;
     position: absolute;
-    cursor: url("assets/cursor.png"), pointer;
+    cursor: url("assets/claw.png"), pointer;
 
 }
 
@@ -95,6 +95,8 @@ nav{
 .portfolioImage{
   padding: 1%;
   margin-top: 0;
+    cursor: url("assets/cursor.png"), pointer;
+
 }
 
 .grid{
@@ -118,6 +120,8 @@ nav{
   #title{
     top: 0;
     width: 40%;
+    cursor: url("assets/cursor.png"), pointer;
+
     position: absolute;
   }
 
