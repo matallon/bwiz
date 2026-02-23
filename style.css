@@ -8,7 +8,7 @@ body{
     background-image: linear-gradient(#9e1313 .1em, transparent .1em), 
     linear-gradient(90deg, #9e1313 .1em, transparent .1em);
     background-size: 4em 4em;
-    height: 100vh;
+    height: 105vh;
 }
 
 .card {
@@ -25,6 +25,7 @@ nav{
 	text-align: right;
 	color: #ffffff;
 }
+
 #navimage{
   width: 8%;
 }
@@ -39,6 +40,7 @@ nav{
   left: 400px;
   top: 100px;
   margin: auto;
+  
 }
 
 #cvbox{
@@ -46,6 +48,16 @@ nav{
   display: block;
   margin-left: 1%;
   margin-top: 5%;
+}
+
+#cvtext{
+  position: absolute;
+  top: 33%;
+  left: 2.5%;
+  width: 340px;
+  text-align: right;
+  font-family: "Inter";
+  bottom: 0;
 }
 
 #portfolio{
@@ -73,6 +85,23 @@ nav{
   font-family: "Inter";
   font-size: larger;
   line-height: 200%;
+}
+
+.portfolioImage{
+  padding: 1%;
+  margin-top: 0;
+}
+
+.grid{
+	width: 70%;
+  left: 15%;
+  top: 200px;
+  position: absolute;
+}
+
+.row{
+  margin-top: 0;
+  display: block;
 }
 
 @media only screen and (max-width: 600px) {
