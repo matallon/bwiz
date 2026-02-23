@@ -21,7 +21,6 @@ body{
     cursor: grab;
     position: absolute;
     cursor: url("assets/claw.png"), pointer;
-
 }
 
 nav{
@@ -34,7 +33,6 @@ nav{
 #navimage{
   width: 8%;
     cursor: url("assets/cursor.png"), pointer;
-
 }
 
 .header {
@@ -45,7 +43,6 @@ nav{
   width: 70%;
   margin-left: 400px;
   display: block;
- 
 }
 
 #cvbox{
@@ -74,6 +71,8 @@ nav{
 	text-align:center;
 }
 
+
+
 #title{
   top: 2%;
   left: 2%;
@@ -93,22 +92,21 @@ nav{
 }
 
 .portfolioImage{
-  padding: 1%;
-  margin-top: 0;
-    cursor: url("assets/cursor.png"), pointer;
-
+  margin-top: 10px;
+  cursor: url("assets/cursor.png"), pointer;
+  text-align: center;
 }
 
 .grid{
-	width: 70%;
-  left: 15%;
+	width: 60%;
+  left: 19%;
   top: 200px;
   position: absolute;
+  column-count: 3;
 }
 
 .row{
-  top: 0;
-  display: block;
+  display: block; 
 }
 
 @media only screen and (max-width: 600px) {
