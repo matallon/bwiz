@@ -43,6 +43,7 @@ nav{
   width: 70%;
   margin-left: 400px;
   display: block;
+  margin-top: -35px;
 }
 
 #cvbox{
@@ -70,8 +71,6 @@ nav{
 	margin:auto; 
 	text-align:center;
 }
-
-
 
 #title{
   top: 2%;
@@ -103,11 +102,17 @@ nav{
   top: 200px;
   position: absolute;
   column-count: 3;
+  text-align: center;
 }
 
 .row{
   display: block; 
 }
+
+#mobileOnly{
+  opacity: 0%;
+}
+
 
 @media only screen and (max-width: 600px) {
   .card {
@@ -134,4 +139,36 @@ nav{
   #title{
     width: 30%;
   }
+
+  .grid{
+    width: 70%;
+    column-count: 1;
+    margin: auto;
+    margin-top: -12%;
+    margin-left: -20px;
+    background-color: #BEBEBE;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #portfolio{
+    display: block;
+    height: 1000px;
+    width: 90%;
+    opacity: 0%;
+  }
+
+  .portfolioImage{
+    padding-bottom: 10px;
+  }
+
+  #mobileOnly{
+    position: absolute;
+    opacity: 100%;
+    top: 14%;
+    margin: auto;
+    left: 14.1%;
+    width: 76.2%;
+  }
+
 }
