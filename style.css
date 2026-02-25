@@ -40,10 +40,10 @@ nav{
 }
 
 #backgrounds{
-  width: 70%;
-  margin-left: 400px;
+  width: 60%;
+  margin-left: 500px;
   display: block;
-  margin-top: -35px;
+  margin-top: -25px;
 }
 
 #cvbox{
@@ -81,9 +81,9 @@ nav{
 
 #artisttext{
   position: absolute;
-  width: 60%;
+  width: 53%;
   height: 80%;
-  left: 490px;
+  left: 565px;
   top: 24%;
   font-family: "Inter";
   font-size: large;
