@@ -144,7 +144,7 @@ nav{
     width: 70%;
     column-count: 1;
     margin: auto;
-    margin-top: -12%;
+    margin-top: -50px;
     margin-left: -20px;
     background-color: #BEBEBE;
     padding: 10px;
@@ -159,13 +159,14 @@ nav{
   }
 
   .portfolioImage{
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    width: 70%;
   }
 
   #mobileOnly{
     position: absolute;
     opacity: 100%;
-    top: 14%;
+    top: 110px;
     margin: auto;
     left: 14.1%;
     width: 76.2%;
