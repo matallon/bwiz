@@ -129,7 +129,7 @@ p{
   column-count: 4;
   margin: auto;
   background-image: linear-gradient(#FFFFFF 0%, #FFFFFF 7%, #D9D9D9 7%, #D9D9D9 20%, #D9D9D9 93%, #FFFFFF 93% );
-  border-radius: 5%;
+  border-radius: 30px;
   padding: 2%;
 }
 
@@ -139,6 +139,13 @@ p{
   padding-bottom: 5%;
   width: 300px;
 }
+
+ellipse{
+  left: 20%;
+}
+
+
+
 
 @media only screen and (max-width: 700px) {
   .card {
@@ -168,9 +175,8 @@ p{
     margin-left: -20px;
     padding: 10px;
     text-align: center;
-    background-image: linear-gradient(#FFFFFF 0%, #FFFFFF 1.5%, #D9D9D9 1.5%, #D9D9D9 20%, #D9D9D9 98.5%, #FFFFFF 98.5% );
-    border-radius: 2%;
-
+    background-image: linear-gradient(#FFFFFF 0%, #FFFFFF 2%, #D9D9D9 2%, #D9D9D9 20%, #D9D9D9 98%, #FFFFFF 98% );
+    border-radius: 30px;
   }
 
   #portfolio{
@@ -198,8 +204,9 @@ p{
   #artisttext{
     margin: auto;
     position: absolute;
-    left: 15%;
+    left: 16%;
     top: 17%;
+    width: 75%;
   }
   
   #backgrounds{
@@ -214,7 +221,7 @@ p{
     column-count: 1;
     margin: auto;
     background-image: linear-gradient(#FFFFFF 0%, #FFFFFF 1.5%, #D9D9D9 1.5%, #D9D9D9 20%, #D9D9D9 98.5%, #FFFFFF 98.5% );
-    border-radius: 1%;
+    border-radius: 20px;
     padding: 8%;
   }
 
