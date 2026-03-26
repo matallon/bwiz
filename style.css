@@ -140,7 +140,7 @@ p{
   width: 300px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .card {
     width: 0px;
     height: 0px;
@@ -148,22 +148,16 @@ p{
 
   #title{
     top: 0;
-    width: 40%;
+    width: 30%;
     cursor: url("assets/cursor.png"), pointer;
-
     position: absolute;
   }
-
   .nav{
     width: 30%;
     top: 90%;
   }
   #navimage{
     width:21%;
-  }
-
-  #title{
-    width: 30%;
   }
 
   .grid{
@@ -196,6 +190,42 @@ p{
     margin: auto;
     left: 14.1%;
     width: 76.2%;
+  }
+
+  #artisttext{
+    margin: auto;
+    position: absolute;
+    left: 15%;
+    top: 17%;
+  }
+  
+  #backgrounds{
+    margin: auto;
+    height: 40vh;
+    width: 80%;
+  }
+
+  #performances{
+    display:block;
+    position: inherit;
+    column-count: 1;
+    margin: auto;
+    background-image: linear-gradient(#FFFFFF 0%, #FFFFFF 1.5%, #D9D9D9 1.5%, #D9D9D9 20%, #D9D9D9 98.5%, #FFFFFF 98.5% );
+    border-radius: 1%;
+    padding: 8%;
+  }
+
+  #performanceimg{
+    padding: 2%;
+    padding-bottom: 1%;
+    width: 100%;
+    margin-left: -2%;
+  }
+
+  #subheading{
+    margin-left:3%;
+    display: block;
+    width: 25%;
   }
 
 }
