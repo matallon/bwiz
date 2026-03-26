@@ -10,10 +10,9 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inter"/>
 	<script src="/mouseFollowers.js" type="text/javascript"></script>
 	<link rel="icon" href="/assets/favicon.png" type="image/png">
-
 </head>
 <body>
-    <div id="container">
+    <div id="container" style="height:100%">
         <div class="header" id="myHeader">
 		    <nav id="navlinks"></nav>
 		    <script>$(function(){$("#navlinks").load("/nav.html");});</script>  
@@ -22,19 +21,26 @@
         <img id="title" src="/assets/buttons/glorb.png"> 
         <p id="artisttext">GLORB always has and will be an idol, from the beginning of time GLORB has existed and been the original iconic being. </p>
         <img id="subheading" src="/assets/buttons/performances.png"> 
-
-
-
-
-
-
-
-
-
-        <div>
-            <div class="card" style="background-image:url('/assets/stickers/glorb.png'); top: 70%; left: 85%; width: 120x; height: 120px; background-size:contain; background-repeat: no-repeat; "></div>
-            <div class="card" style="background-image:url('/assets/frontpagestickers/glorb2.png'); top: 52%; left: 10%;"></div>
-            <div class="card" style="background-image:url('/assets/frontpagestickers/glorbCard.png'); top: 22%; left: 5%;"></div>
+        <div class="grid" id="performances">
+                    <div class="row">
+                        <p id="performanceimg"><strong>I Never Agreed to Lend My Voice Act 2, In Conversation</strong> Hyde Park Art Club, 12th May - 20th May 2025</p>
+                        <img id="performanceimg" src="/assets/pages/glorb/glorb1.png">
+                        <img id="performanceimg" src="/assets/pages/glorb/glorb2.png">
+                        <img id="performanceimg" src="/assets/pages/glorb/glorb3.png">
+                    </div>
+        </div>
+        <br>
+        <div class="grid" id="performances">
+                    <div class="row">
+                        <p id="performanceimg"><strong>Ones to Watch 2026 Performance Night</strong> Sunny Bank Mills, 7th March 2026</p>
+                        <img id="performanceimg" src="/assets/pages/glorb/sb1.png">
+                        <img id="performanceimg" src="/assets/pages/glorb/sb2.png">
+                    </div>
+        </div>
+        <br>
+        <div class="card" style="background-image:url('/assets/stickers/glorb.png'); top: 70%; left: 85%; width: 120x; height: 120px; background-size:contain; background-repeat: no-repeat; "></div>
+        <div class="card" style="background-image:url('/assets/frontpagestickers/glorb2.png'); top: 52%; left: 10%;"></div>
+        <div class="card" style="background-image:url('/assets/frontpagestickers/glorbCard.png'); top: 22%; left: 5%;"></div>
         </div>   
     </div>
 </body>

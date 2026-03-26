@@ -30,6 +30,9 @@ nav{
   cursor: url("assets/cursor.png"), pointer;
 }
 
+p{
+  font-family: "Inter";}
+
 #navimage{
   width: 8%;
     cursor: url("assets/cursor.png"), pointer;
@@ -61,6 +64,7 @@ nav{
   text-align: right;
   font-family: "Inter";
   bottom: 0;
+  color: black;
 }
 
 #portfolio{
@@ -117,6 +121,23 @@ nav{
   margin-left:3%;
   display: block;
   width: 13%;
+}
+
+#performances{
+  display:block;
+  position: inherit;
+  column-count: 4;
+  margin: auto;
+  background-image: linear-gradient(#FFFFFF 0%, #FFFFFF 7%, #D9D9D9 7%, #D9D9D9 20%, #D9D9D9 93%, #FFFFFF 93% );
+  border-radius: 5%;
+  padding: 2%;
+}
+
+#performanceimg{
+  padding: 5%;
+  padding-top: 16%;
+  padding-bottom: 5%;
+  width: 300px;
 }
 
 @media only screen and (max-width: 600px) {
