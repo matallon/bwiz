@@ -94,6 +94,13 @@ p{
   line-height: 200%;
 }
 
+#ytvid{
+  position: absolute;
+  display: block;
+  left: 65%;
+  top: 63%;
+}
+
 .portfolioImage{
   margin-top: 40px;
   cursor: url("assets/cursor.png"), pointer;
