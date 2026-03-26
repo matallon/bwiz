@@ -87,7 +87,7 @@ p{
   position: absolute;
   width: 53%;
   height: 80%;
-  left: 565px;
+  left: 575px;
   top: 24%;
   font-family: "Inter";
   font-size: large;
@@ -95,7 +95,7 @@ p{
 }
 
 .portfolioImage{
-  margin-top: 10px;
+  margin-top: 40px;
   cursor: url("assets/cursor.png"), pointer;
   text-align: center;
 }
@@ -138,6 +138,21 @@ p{
   padding-top: 16%;
   padding-bottom: 5%;
   width: 300px;
+}#performanceimg:active,
+#performanceimg:focus{
+    width: 600px;
+    position: fixed;
+    top:  40%;
+    left: 50%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.7);
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-bottom: 20%;
+    padding-top: 30%;
+    object-fit: contain;
+    margin: auto;
 }
 
 #ellipse{
