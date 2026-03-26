@@ -265,4 +265,11 @@ p{
     width: 25%;
   }
 
+  #ytvid{
+    position: inherit;
+    display: block;
+    padding: 5%;
+    margin-left: 1%;
+  }
+
 }
